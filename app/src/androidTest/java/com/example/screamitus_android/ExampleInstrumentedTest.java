@@ -41,6 +41,7 @@ public class ExampleInstrumentedTest {
 
         Thread.sleep(5000);
         //TC2 when user add value and calculate , it displays correct number
+        onView(withId(R.id.AppCpmpat_Button)).perform(click());
         onView(withId(R.id.AppCompat_Button)).check(matches(isDisplayed()));
         onView(withId(R.id.results_label)).check(matches(isDisplayed()));
 
