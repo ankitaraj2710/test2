@@ -17,35 +17,16 @@ public class Infection {
            int days = m;
            int rate = total/5;
            System.out.println("rate is": + rate );
+           if()
            //R3 the rate increases to 8 instructor
            int rate = total/8;
        }
 
    }
 
-    public class BMICalculator {
 
-        public String calculateBMI(double weight, double height) {
-            double bmi = (weight) / (height * height);
-            System.out.println("BMI: " + bmi);
 
-            if (bmi > 18.5 && bmi < 25 ) {
-                return "normal";
-            }
-            else if (bmi >= 25 && bmi < 30) {
-                return "average";
-            }
-            else if (bmi >= 31 && bmi < 40) {
-                return "fat";
-            }
-            else if (bmi >= 40) {
-                return "severe fat";
-            }
-            else {
-                return "aliens!";
-            }
 
-        }
-    }
+
 
 }

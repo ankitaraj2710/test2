@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
 
 
+
     @Test
     public void infection() {
         int n = 2;
